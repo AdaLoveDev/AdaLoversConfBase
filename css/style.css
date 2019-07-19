@@ -3074,3 +3074,15 @@ h4,
 .footer-text i {
     color: #51a7b2;
 }
+
+.margin-small{
+    margin-top:15px;
+}
+
+.margin-medium{
+    margin-top:30px;
+}
+
+.margin-big{
+    margin-top:60px;
+}
