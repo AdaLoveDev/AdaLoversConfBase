@@ -770,21 +770,11 @@ h4,
 
 .hero-banner {
     position: relative;
-    padding: 70px 0;
+    padding-top: 10vh;
+    height: 90vh;
+    min-height: 150px;
     background: #5c1d53 left center no-repeat;
     background-size: cover;
-}
-
-@media (min-width: 768px) {
-    .hero-banner {
-        padding: 150px 0;
-    }
-}
-
-@media (min-width: 1200px) {
-    .hero-banner {
-        padding: 240px 0;
-    }
 }
 
 .hero-banner-sm {
@@ -3075,14 +3065,14 @@ h4,
     color: #51a7b2;
 }
 
-.margin-small{
-    margin-top:15px;
+.margin-small {
+    margin-top: 15px;
 }
 
-.margin-medium{
-    margin-top:30px;
+.margin-medium {
+    margin-top: 30px;
 }
 
-.margin-big{
-    margin-top:60px;
+.margin-big {
+    margin-top: 60px;
 }
