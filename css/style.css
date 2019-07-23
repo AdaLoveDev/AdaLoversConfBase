@@ -1556,15 +1556,29 @@ h4,
 }
 
 .sponsor-single {
-    border: 5px solid #fff;
     text-align: center;
     padding: 10px;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    height: 140px;
     position: relative;
+}
+
+.capitana-marvel {
+    height: 40vh;
+}
+
+.wonder-woman {
+    height: 30vh;
+}
+
+.black-widow {
+    height: 20vh;
+}
+
+.supergirl {
+    height: 10vh;
 }
 
 .sponsor-single img {
