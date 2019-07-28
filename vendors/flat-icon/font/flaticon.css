@@ -1,1 +1,47 @@
-@font-face{font-family:flaticon;src:url(Flaticon.eot);src:url(Flaticond41d.eot?#iefix) format("embedded-opentype"),url(Flaticon.woff2) format("woff2"),url(Flaticon.woff) format("woff"),url(Flaticon.ttf) format("truetype"),url(Flaticon.svg#Flaticon) format("svg");font-weight:400;font-style:normal}@media screen and (-webkit-min-device-pixel-ratio:0){@font-face{font-family:flaticon;src:url(Flaticon.svg#Flaticon) format("svg")}}[class^=flaticon-]:before,[class*=" flaticon-"]:before,[class^=flaticon-]:after,[class*=" flaticon-"]:after{font-family:Flaticon;font-size:20px;font-style:normal;margin-left:20px}.flaticon-sing:before{content:"\f100"}.flaticon-prize:before{content:"\f101"}.flaticon-earth-globe:before{content:"\f102"}
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 28/07/2019 14:14
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-tools-and-utensils:before { content: "\f100"; }
+.flaticon-binary-code:before { content: "\f101"; }
+.flaticon-programming-code-signs:before { content: "\f102"; }
+.flaticon-programmer:before { content: "\f103"; }
+.flaticon-algorithm:before { content: "\f104"; }
+.flaticon-programming-language:before { content: "\f105"; }
+.flaticon-laptop:before { content: "\f106"; }
+.flaticon-laptop-1:before { content: "\f107"; }
+.flaticon-employee:before { content: "\f108"; }
+.flaticon-karaoke:before { content: "\f109"; }
+.flaticon-placeholder:before { content: "\f10a"; }
+.flaticon-route:before { content: "\f10b"; }
+.flaticon-ticket:before { content: "\f10c"; }
+.flaticon-solution:before { content: "\f10d"; }
+.flaticon-sponsored:before { content: "\f10e"; }
