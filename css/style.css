@@ -734,9 +734,6 @@ h4,
         font-size: 28px;
         line-height: 38px;
     }
-    .footer-area {
-        padding: 70px 0;
-    }
     .pad_top {
         padding-top: 70px;
     }
@@ -1068,14 +1065,14 @@ h4,
     height: 50vh;
     min-height: 360px;
     width: 20vw;
-    margin: 30px 30px;
+    margin: 40px 40px;
     position: relative;
     perspective: 2000px;
 }
 
 @media (max-width: 991px) {
     .card-speaker {
-        width: 30vw;
+        width: 39vw;
         min-width: 220px;
         min-height: 360px;
     }
@@ -2852,13 +2849,8 @@ h4,
 
 .footer-area {
     background: #111429;
-    padding-top: 60px;
-}
-
-@media (min-width: 1000px) {
-    .footer-area {
-        padding-top: 110px;
-    }
+    padding: 30px;
+    text-align: center;
 }
 
 .footer-area .footer-nav li {
@@ -3123,12 +3115,6 @@ h4,
     padding: 20px 0;
     margin-top: 30px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-@media (min-width: 1000px) {
-    .footer-bottom {
-        margin-top: 70px;
-    }
 }
 
 .footer-text a,
