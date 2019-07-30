@@ -1086,8 +1086,8 @@ h4,
 
 .card-speaker {
     background-color: transparent;
-    height: 50vh;
-    min-height: 360px;
+    height: 60vh;
+    min-height: 400px;
     width: 20vw;
     margin: 30px 30px;
     position: relative;
