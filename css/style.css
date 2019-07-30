@@ -184,7 +184,7 @@ h4,
 .header_area {
     width: 100%;
     z-index: 99;
-    background: rgba(92, 29, 83, 0.8);
+    background: rgba(92, 29, 83, 0.9);
     transition: background 0.4s, all 0.3s linear;
 }
 
@@ -802,7 +802,7 @@ h4,
     position: absolute;
     bottom: 0;
     left: 0;
-    top: 90px;
+    top: 1vh;
     right: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2865,7 +2865,7 @@ h4,
 }
 
 .button-header:hover {
-    background: #b8024c;
+    background: rgba(92, 29, 83, 0.8);
     color: #fff;
 }
 
