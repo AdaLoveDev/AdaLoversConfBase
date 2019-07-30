@@ -383,7 +383,7 @@ h4,
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: rgba(92, 29, 83, 0.8);
     z-index: 99;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
@@ -393,11 +393,12 @@ h4,
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 20px;
+    color: #fff;
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link,
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
-    color: #5c1d53;
+    color: #51a7b2;
 }
 
 @media (min-width: 992px) {
@@ -500,10 +501,10 @@ h4,
         margin-bottom: 23px;
     }
     .header_area .navbar {
-        background: #fff;
+        background: #5c1d53;
     }
     .header_area .navbar .nav-item.active .nav-link {
-        color: #5c1d53 !important;
+        color: #fff !important;
     }
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
         opacity: 1;
@@ -525,7 +526,7 @@ h4,
         display: block;
         width: 25px;
         height: 3px;
-        background: #eb0162;
+        background: #fff;
         margin: auto;
         margin-bottom: 4px;
         transition: all 400ms linear;
