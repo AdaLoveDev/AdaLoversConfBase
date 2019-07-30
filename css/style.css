@@ -802,7 +802,7 @@ h4,
     position: absolute;
     bottom: 0;
     left: 0;
-    top: 1vh;
+    top: -10vh;
     right: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -822,13 +822,11 @@ h4,
 }
 
 .hero-banner-sm {
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
 @media (min-width: 992px) {
     .hero-banner-sm {
-        padding-top: 170px;
         padding-bottom: 170px;
     }
 }
