@@ -177,9 +177,14 @@ h4,
     }
 }
 
+.header_area .navbar {
+    overflow: hidden;
+}
+
 .header_area {
     width: 100%;
     z-index: 99;
+    background: rgba(92, 29, 83, 0.8);
     transition: background 0.4s, all 0.3s linear;
 }
 
@@ -195,6 +200,7 @@ h4,
 }
 
 .header_area .navbar-brand {
+    overflow: hidden;
     margin-right: 30px;
     padding: 0;
 }
@@ -245,7 +251,7 @@ h4,
     font-family: oswald, sans-serif;
     font-size: 15px;
     font-weight: 500;
-    color: #5c1d53;
+    color: #fff;
 }
 
 .header_area .navbar .nav .nav-item {
@@ -254,7 +260,7 @@ h4,
 
 .header_area .navbar .nav .nav-item .nav-link {
     font-family: roboto, sans-serif;
-    color: #242424;
+    color: #fff;
     text-transform: capitalize;
     font-weight: 400;
     padding: 33px 0;
@@ -295,7 +301,7 @@ h4,
         position: absolute;
         top: 120%;
         left: 0;
-        min-width: 200px;
+        min-width: 300px;
         text-align: left;
         opacity: 0;
         transition: all 300ms ease-in;
@@ -553,8 +559,8 @@ h4,
         margin-left: 0;
     }
     .header_area .navbar-collapse {
-        max-height: 340px;
-        overflow-y: scroll;
+        max-height: 340vh;
+        overflow-y: hidden;
     }
     .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
         padding: 0 15px;
