@@ -1090,7 +1090,7 @@ h4,
 }
 
 .card-speaker p {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .card-speaker {
@@ -1108,6 +1108,9 @@ h4,
         width: 30vw;
         min-width: 220px;
         min-height: 360px;
+    }
+    .card-speaker p {
+        font-size: 10px;
     }
 }
 
