@@ -1621,8 +1621,21 @@ h4,
 }
 
 .sponsor-bg {
-    background: url(../img/home/sponsor-bg.png) left center no-repeat;
+    width: 100%;
+    background: url(../img/home/sponsor-bg.jpg) left center no-repeat;
     background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.sponsor-bg:before {
+    content: "";
+    background: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .sponsor-wrapper {
