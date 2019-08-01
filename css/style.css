@@ -177,9 +177,14 @@ h4,
     }
 }
 
+.header_area .navbar {
+    overflow: hidden;
+}
+
 .header_area {
     width: 100%;
     z-index: 99;
+    background: rgba(92, 29, 83, 0.9);
     transition: background 0.4s, all 0.3s linear;
 }
 
@@ -195,6 +200,7 @@ h4,
 }
 
 .header_area .navbar-brand {
+    overflow: hidden;
     margin-right: 30px;
     padding: 0;
 }
@@ -245,7 +251,7 @@ h4,
     font-family: oswald, sans-serif;
     font-size: 15px;
     font-weight: 500;
-    color: #5c1d53;
+    color: #fff;
 }
 
 .header_area .navbar .nav .nav-item {
@@ -254,7 +260,7 @@ h4,
 
 .header_area .navbar .nav .nav-item .nav-link {
     font-family: roboto, sans-serif;
-    color: #242424;
+    color: #fff;
     text-transform: capitalize;
     font-weight: 400;
     padding: 33px 0;
@@ -295,7 +301,7 @@ h4,
         position: absolute;
         top: 120%;
         left: 0;
-        min-width: 200px;
+        min-width: 300px;
         text-align: left;
         opacity: 0;
         transition: all 300ms ease-in;
@@ -383,7 +389,7 @@ h4,
     top: -70px;
     left: 0;
     right: 0;
-    background: #fff;
+    background: rgba(92, 29, 83, 0.8);
     z-index: 99;
     transform: translateY(70px);
     transition: transform 500ms ease, background 500ms ease;
@@ -393,11 +399,12 @@ h4,
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 20px;
+    color: #fff;
 }
 
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item:hover .nav-link,
 .header_area.navbar_fixed .main_menu .navbar .nav .nav-item.active .nav-link {
-    color: #5c1d53;
+    color: #51a7b2;
 }
 
 @media (min-width: 992px) {
@@ -500,10 +507,10 @@ h4,
         margin-bottom: 23px;
     }
     .header_area .navbar {
-        background: #fff;
+        background: #5c1d53;
     }
     .header_area .navbar .nav-item.active .nav-link {
-        color: #5c1d53 !important;
+        color: #fff !important;
     }
     .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
         opacity: 1;
@@ -525,7 +532,7 @@ h4,
         display: block;
         width: 25px;
         height: 3px;
-        background: #eb0162;
+        background: #fff;
         margin: auto;
         margin-bottom: 4px;
         transition: all 400ms linear;
@@ -552,8 +559,8 @@ h4,
         margin-left: 0;
     }
     .header_area .navbar-collapse {
-        max-height: 340px;
-        overflow-y: scroll;
+        max-height: 340vh;
+        overflow-y: hidden;
     }
     .header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
         padding: 0 15px;
@@ -795,7 +802,7 @@ h4,
     position: absolute;
     bottom: 0;
     left: 0;
-    top: 90px;
+    top: -10vh;
     right: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -815,13 +822,11 @@ h4,
 }
 
 .hero-banner-sm {
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
 @media (min-width: 992px) {
     .hero-banner-sm {
-        padding-top: 170px;
         padding-bottom: 170px;
     }
 }
@@ -2858,7 +2863,7 @@ h4,
 }
 
 .button-header:hover {
-    background: #b8024c;
+    background: rgba(92, 29, 83, 0.8);
     color: #fff;
 }
 
