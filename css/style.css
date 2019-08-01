@@ -1665,7 +1665,7 @@ h4,
 }
 
 .capitana-marvel {
-    height: 40vh;
+    height: 20vh;
 }
 
 .wonder-woman {
@@ -1673,7 +1673,7 @@ h4,
 }
 
 .black-widow {
-    height: 20vh;
+    height: 10vh;
 }
 
 .supergirl {
@@ -1688,7 +1688,8 @@ h4,
 }
 
 .sponsor-single:hover {
-    box-shadow: 0 5px 20px 0 rgba(10, 9, 13, 0.15);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .sponsor-wrapper--small .sponsor-single {
