@@ -2909,14 +2909,7 @@ h4,
 }
 
 .footer-area {
-    background: #111429;
-    padding-top: 60px;
-}
-
-@media (min-width: 1000px) {
-    .footer-area {
-        padding-top: 110px;
-    }
+    background: #5c1d53;
 }
 
 .footer-area .footer-nav li {
