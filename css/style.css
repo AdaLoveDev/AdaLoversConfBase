@@ -1084,6 +1084,14 @@ h4,
     color: #51a7b2;
 }
 
+.speaker-bg2 {
+    background: #5c1d53 left center no-repeat;
+    background: url(../img/banner/fondodossier.png) top center;
+    background-size: 90vh;
+    overflow: hidden;
+    position: relative;
+}
+
 .speaker-bg {
     background: #5c1d53 left center no-repeat;
     background-size: cover;
